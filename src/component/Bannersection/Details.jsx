@@ -4,7 +4,7 @@ const Details = () => {
     return (
         <div className="mt-14 lg:mx-24 mx-5">
             <div className='flex flex-col-reverse lg:flex-row gap-10'>
-                <img className='lg:w-[40%] w-[100%]' src={cover} alt="" />
+                <img className='lg:w-[40%] w-[100%] rounded-lg' src={cover} alt="" />
                 <div className='flex items-center'>
                     <div>
                         <h1 className='lg:text-3xl text-xl text-center font-bold'>Home & Office Maintenance Services in Abu-Dhabi</h1>

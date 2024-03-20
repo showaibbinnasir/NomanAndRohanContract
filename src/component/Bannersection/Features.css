@@ -1,0 +1,8 @@
+.featureSection{
+    transition: all 0.5s;
+}
+
+.featureSection:hover {
+    background-color: white;
+    scale: 1.10;
+}
