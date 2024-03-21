@@ -8,7 +8,7 @@ const Assists = () => {
                 <div>
                     <img className="lg:w-[470px] w-[350px]" src={group} alt="" />
                 </div>
-                <div className="flex items-center lg:w-[650px] w-[350px]">
+                <div className="flex items-center lg:w-[650px] md:w-[650px] w-[350px]">
                     <div>
                         <h1 className="text-4xl font-semibold my-5">How Can We Assist You?</h1>
                         <h1 className=" text-sm text-justify">For a comprehensive range of services, entrust Noman & Rohan General Contracting and Maintenance to handle everything from air conditioning units to plumbing, electrics and more.</h1>
