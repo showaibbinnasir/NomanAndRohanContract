@@ -2,6 +2,7 @@ import Services from "../../Services/Services";
 import About from "../About/About";
 import Bannersection from "../Bannersection/Bannersection";
 import Details from "../Bannersection/Details";
+import SmoothScroll from "../SmoothScroll/SmoothScroll"
 
 const Homepage = () => {
     return (
@@ -10,6 +11,7 @@ const Homepage = () => {
             <Details></Details>
             <Services></Services>
             <About></About>
+            <SmoothScroll></SmoothScroll>
         </div>
     );
 };
