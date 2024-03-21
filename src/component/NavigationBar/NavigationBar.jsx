@@ -1,7 +1,7 @@
 "use client";
 
 import { Navbar } from "keep-react";
-import { NavLink } from "react-router-dom";
+
 const NavigationBar = () => {
     return (
         <>
@@ -21,17 +21,17 @@ const NavigationBar = () => {
                                 <Navbar.Link linkName="About Us" />
                                 <Navbar.Link linkName="Sevices" />
                                 <Navbar.Link linkName="Contact" /> */}
-                                <NavLink className='text-md font-semibold' to="/">Home</NavLink>
-                                <NavLink className='text-md font-semibold' to="/">About Us</NavLink>
-                                <NavLink className='text-md font-semibold' to="/services">Services</NavLink>
-                                <NavLink className='text-md font-semibold' to="/">Contact</NavLink>
+                                <a className='text-md font-semibold' href="/">Home</a>
+                                <a className='text-md font-semibold' href="/#details">About Us</a>
+                                <a className='text-md font-semibold' href="/#services">Services</a>
+                                <a className='text-md font-semibold' href="/">Contact</a>
                             </Navbar.Container>
                             <Navbar.Collapse collapseType="sidebar" className="bg-[#18335D]">
                                 <Navbar.Container tag="ul" className="flex flex-col gap-5">
-                                    <NavLink className="text-white font-semibold text-md" to="/">Home</NavLink>
-                                    <NavLink className="text-white font-semibold text-md" to="/">About Us</NavLink>
-                                    <NavLink className="text-white font-semibold text-md" to="/services">Services</NavLink>
-                                    <NavLink className="text-white font-semibold text-md" to="/">Contact</NavLink>
+                                    <a className="text-white font-semibold text-md" href="/">Home</a>
+                                    <a className="text-white font-semibold text-md" href="/#details">About Us</a>
+                                    <a className="text-white font-semibold text-md" href="/#services">Services</a>
+                                    <a className="text-white font-semibold text-md" href="/">Contact</a>
                                 </Navbar.Container>
                             </Navbar.Collapse>
                         </Navbar.Container>

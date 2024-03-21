@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import electricService from "../assets/electrical.png"
 import './Services.css'
 
@@ -36,12 +37,16 @@ const services = [
 ]
 
 const Services = () => {
+    const navigate = useNavigate()
+    const navigateRoute = () => {
+        navigate('/services')
+    }
     return (
         <div>
-            <div className=" bg-gradient-to-b from-white from-25% to-[#18335D]">
+            <div id="services" className=" bg-gradient-to-b from-white from-25% to-[#18335D]">
                 <div className="lg:py-24 py-16 lg:mx-24">
                     <h1 className="text-4xl text-center font-semibold">Our Services</h1>
-                    <h1 className="text-center text-md text-[#4C81D1]">Please hove on pictures to see details...</h1>
+                    <h1 className="text-center text-md text-[#4C81D1]">Please hover on pictures to see details...</h1>
                     <div className="flex justify-center">
                         <div className="grid lg:grid-cols-3 grid-cols-2 gap-5">
                             {
@@ -61,7 +66,7 @@ const Services = () => {
 
             </div>
             <div className="flex justify-center mt-[-25px]">
-                <button className="card-button bg-white lg:w-[350px] w-[250px] rounded-[5px] py-3 text-[#4C81D1] drop-shadow-md">See More</button>
+                <button onClick={()=>navigateRoute()} className="card-button bg-white lg:w-[350px] w-[250px] rounded-[5px] py-3 text-[#4C81D1] drop-shadow-md">See More</button>
             </div>
         </div>
     );
