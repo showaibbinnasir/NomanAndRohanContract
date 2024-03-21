@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavigationBar = () => {
     return (
         <>
-            <div className=" sticky top-0 z-999">
+            <div className=" sticky top-0 z-[999999]">
                 <Navbar fluid={true}>
                     <Navbar.Container className="flex items-center justify-between lg:mx-24">
                         <Navbar.Container className="flex items-center">
