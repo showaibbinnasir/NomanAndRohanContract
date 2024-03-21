@@ -24,14 +24,14 @@ const NavigationBar = () => {
                                 <a className='text-md font-semibold' href="/">Home</a>
                                 <a className='text-md font-semibold' href="/#details">About Us</a>
                                 <a className='text-md font-semibold' href="/#services">Services</a>
-                                <a className='text-md font-semibold' href="/">Contact</a>
+                                <a className='text-md font-semibold' href="/#contact">Contact</a>
                             </Navbar.Container>
                             <Navbar.Collapse collapseType="sidebar" className="bg-[#18335D]">
                                 <Navbar.Container tag="ul" className="flex flex-col gap-5">
                                     <a className="text-white font-semibold text-md" href="/">Home</a>
                                     <a className="text-white font-semibold text-md" href="/#details">About Us</a>
                                     <a className="text-white font-semibold text-md" href="/#services">Services</a>
-                                    <a className="text-white font-semibold text-md" href="/">Contact</a>
+                                    <a className="text-white font-semibold text-md" href="/#contact">Contact</a>
                                 </Navbar.Container>
                             </Navbar.Collapse>
                         </Navbar.Container>

@@ -1,6 +1,6 @@
 const Essence = () => {
     return (
-        <div className=" my-8 bg-[#D1CCCC] p-16">
+        <div className=" mt-8 bg-[#D1CCCC] p-16">
             <div className="flex justify-center">
                 <h1 className="lg:text-4xl md:text-2xl text-xl text-center text-[#2B161B] w-[850px] font-semibold">Reliable & Experienced Maintenance Experts in
                     Dubai, UAE</h1>
