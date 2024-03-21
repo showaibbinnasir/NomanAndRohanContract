@@ -37,7 +37,7 @@ const services = [
         id: 6,
         title: "Tiles Installation Service",
         background: tiles,
-        text: "Elevate your space with  Noman & Rohan General Contracting and Maintenance’ expert tile installation. From floors to walls, our meticulous approach guarantees flawless results, enhancing the aesthetic appeal and  durability of your property."
+        text: "Elevate your space with expert tile installation. From floors to walls, our meticulous approach guarantees flawless results, enhancing the aesthetic appeal and  durability of your property."
     },
 ]
 
