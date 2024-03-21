@@ -5,7 +5,7 @@ import cap from "../../assets/cap.png"
 const AboutCard = () => {
     return (
         <div className="flex justify-center items-center my-10">
-            <div className="lg:flex grid grid-cols-1 gap-5">
+            <div className="lg:flex grid md:grid-cols-2 grid-cols-1 gap-5">
                 <div className="flex flex-col gap-5 bg-white drop-shadow-lg p-5 lg:w-[370px] w-[330px] h-[305px] justify-center">
                     <div className="flex">
                         <div className="bg-[#F8F8FB] p-5 rounded-full">
