@@ -2,7 +2,7 @@
 
 This a client project from Abu Dhabi, developed by Dream Weave Stations.
 
-#Used Technologies:
+# Used Technologies:
 * HTML
 * CSS
 * Tailwind CSS
