@@ -7,6 +7,7 @@ import Details from "../Bannersection/Details";
 import CallbackForm from "../CallbackForm/CallbackForm";
 import Essence from "../Essence/Essence";
 import Estimate from "../Estimate/Estimate";
+import Footer from "../Footer/Footer";
 import SmoothScroll from "../SmoothScroll/SmoothScroll"
 import Stats from "../Stats/Stats";
 
@@ -23,6 +24,7 @@ const Homepage = () => {
             <Essence></Essence>
             <Estimate></Estimate>
             <CallbackForm></CallbackForm>
+            <Footer></Footer>
             <SmoothScroll></SmoothScroll>
         </div>
     );

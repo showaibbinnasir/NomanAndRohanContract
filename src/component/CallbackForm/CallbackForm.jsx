@@ -58,7 +58,7 @@ const CallbackForm = () => {
                             <div className="flex justify-center">
                                 <div className="flex items-center gap-4">
                                     <img className="w-10" src={whatsapp} alt="" />
-                                    <span>Whatsapp</span>
+                                    <span>or Whatsapp</span>
                                 </div>
                             </div>
 
