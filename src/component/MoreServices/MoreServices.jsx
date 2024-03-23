@@ -67,6 +67,7 @@ const MoreServices = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
+    document.title = "Services"
     return (
         <div>
             <div>
