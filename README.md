@@ -13,3 +13,8 @@ This a client project from Abu Dhabi, developed by Dream Weave Stations.
 * React-Router-Dom 
 * React-CountUp
 * React-Scroll-Trigger
+* NodeJs
+* ExpressJs
+* MongoDb
+
+  
