@@ -1,3 +1,4 @@
+import ReactWhatsapp from "react-whatsapp";
 import call from "../../assets/call.png"
 const Estimate = () => {
     return (
@@ -9,8 +10,8 @@ const Estimate = () => {
                         <h1 className="text-white text-sm text-justify">As a leading home maintenance Services in Dubai, We clear out your maintenance problems and any other services requirements on a timely basis. Feel free to contact us.</h1>
                         <div className="mt-5">
                             <div className="flex gap-2">
-                                <button className="bg-[#4C81D1] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white">Get A Quote</button>
-                                <button className="bg-[#18335D] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white border border-white">Whatsapp</button>
+                                <a href="/#contact"><button className="bg-[#4C81D1] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white">Get A Quote</button></a>
+                                <button className="bg-[#18335D] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white border border-white"><ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
                             </div>
                         </div>
                     </div>

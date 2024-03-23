@@ -1,3 +1,5 @@
+import ReactWhatsapp from "react-whatsapp";
+
 const BannerContent = () => {
     return (
         <div className="flex justify-center lg:mt-[-350px] md:mt-[-350px] mt-[-270px] z-99999">
@@ -11,8 +13,8 @@ const BannerContent = () => {
                     Sofa & Carpet Cleaning, painting and more .</h1>
                 <div className="flex justify-center mt-2">
                     <div className="flex gap-2">
-                        <button className="bg-[#18335D] lg:w-[150px] w-[110px] rounded-[5px] py-2 text-white border border-white">Get A Quote</button>
-                        <button className="bg-[#18335D] lg:w-[150px] w-[110px] rounded-[5px] py-2 text-white border border-white">Whatsapp</button>
+                        <a href="/#contact"><button className="bg-[#18335D] lg:w-[150px] w-[110px] rounded-[5px] py-2 text-white border border-white">Get A Quote</button></a>
+                        <button className="bg-[#18335D] lg:w-[150px] w-[110px] rounded-[5px] py-2 text-white border border-white"><ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
                     </div>
                 </div>
             </div>

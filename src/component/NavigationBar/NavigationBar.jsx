@@ -45,7 +45,7 @@ const NavigationBar = () => {
                                 Whatsapp
                             </Button> */}
                             <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white">Book Now</button>
-                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white"> <ReactWhatsapp number="01880614408"> Whatsapp</ReactWhatsapp></button>
+                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white"> <ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
                             <Navbar.Toggle />
                         </Navbar.Container>
                     </Navbar.Container>
