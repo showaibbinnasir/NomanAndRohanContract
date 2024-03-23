@@ -10,6 +10,8 @@ import Footer from "../Footer/Footer"
 import senitary from "../../assets/senitary.jpg"
 import gypsum from "../../assets/gypsum.jpg"
 import manpower from "../../assets/manpower.jpg"
+import { useLocation } from "react-router-dom"
+import { useEffect } from "react"
 const services = [
     {
         id: 1,
@@ -41,25 +43,30 @@ const services = [
         title: "Tiles Installation Service",
         background: tiles,
         text: "Elevate your space with expert tile installation. From floors to walls, our meticulous approach guarantees flawless results, enhancing the aesthetic appeal and  durability of your property."
-    },{
+    }, {
         id: 7,
-        title : "Sanitary Services",
-        background : senitary,
-        text : "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ sanitary expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
-    },{
+        title: "Sanitary Services",
+        background: senitary,
+        text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ sanitary expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
+    }, {
         id: 8,
-        title : "Gypsum Services",
-        background : gypsum,
+        title: "Gypsum Services",
+        background: gypsum,
         text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ gypsum expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
-    },{
-        id : 9,
-        title : "Man Power",
-        background : manpower  ,
-        text : "We are recruitment agency offering staffing, manpower and human resource solutions and services in Abu Dhabi."
+    }, {
+        id: 9,
+        title: "Man Power",
+        background: manpower,
+        text: "We are recruitment agency offering staffing, manpower and human resource solutions and services in Abu Dhabi."
     }
 ]
 
 const MoreServices = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <div>
             <div>
