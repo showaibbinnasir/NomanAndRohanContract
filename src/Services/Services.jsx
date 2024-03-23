@@ -18,33 +18,36 @@ const services = [
         title: "Electrical Services",
         background: electricService,
         text: "Illuminate your space with  Noman & Rohan General Contracting and Maintenance’ electrical solutions. From installations to repairs, our skilled electricians guarantee safe and efficient electrical systems for your property."
-    }, {
+    },{
         serviceId: 3,
-        title: "Decor Services",
-        background: decor,
-        text: "For all your odd jobs and repairs, rely on  Noman & Rohan General Contracting and Maintenance’ versatile handyman services. Our skilled professionals tackle a range of tasks, ensuring your property is well-maintained and functional."
-    }, {
+        title: "Plumbing Services",
+        background: plumbing,
+        text: "Say goodbye to leaks and plumbing issues with Noman & Rohan General Contracting and Maintenance. Our plumbing experts provide reliable solutions, ensuring your pipes and fixtures function seamlessly."
+    },{
         serviceId: 4,
         title: "Painting Services",
         background: painting,
         text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ painting expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
     }, {
         serviceId: 5,
-        title: "Plumbing Services",
-        background: plumbing,
-        text: "Say goodbye to leaks and plumbing issues with Noman & Rohan General Contracting and Maintenance. Our plumbing experts provide reliable solutions, ensuring your pipes and fixtures function seamlessly."
-    }, {
-        serviceId: 6,
         title: "Tiles Installation Service",
         background: tiles,
         text: "Elevate your space with expert tile installation. From floors to walls, our meticulous approach guarantees flawless results, enhancing the aesthetic appeal and  durability of your property."
-    },
+    },{
+        serviceId: 9,
+        title: "Decor Services",
+        background: decor,
+        text: "For all your odd jobs and repairs, rely on  Noman & Rohan General Contracting and Maintenance’ versatile handyman services. Our skilled professionals tackle a range of tasks, ensuring your property is well-maintained and functional."
+    }
 ]
 
 const Services = () => {
     const navigate = useNavigate()
     const navigateRoute = () => {
         navigate('/services')
+    }
+    const navigation = (id) => {
+        navigate(`/service/${id}`)
     }
     return (
         <div>
@@ -61,7 +64,7 @@ const Services = () => {
                                     <div className="card-body">
                                         <h1 className="card-tile lg:text-2xl text:xl text-white font-semibold">{service.title}</h1>
                                         <h1 className="card-content lg:text-lg text-[10px] text-white lg:my-8 my-2">{service.text}</h1>
-                                        <button onClick={()=>alert(`${service.title}`)} className="card-button bg-[#4C81D1] lg:w-[150px] w-[110px] rounded-[5px] py-1 text-white">See More</button>
+                                        <button onClick={()=>navigation(service.serviceId)} className="card-button bg-[#4C81D1] lg:w-[150px] w-[110px] rounded-[5px] py-1 text-white">See More</button>
                                     </div>
                                 </div>)
                             }

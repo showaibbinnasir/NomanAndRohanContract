@@ -3,8 +3,13 @@
 import { Navbar } from "keep-react";
 import ReactWhatsapp from "react-whatsapp";
 import logo from "../../assets/logo.png"
+import { useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
+    const navigate = useNavigate()
+    const navigation = () => {
+        navigate("/quote")
+    }
     return (
         <>
             <div className=" sticky top-0 z-[999999]">
@@ -45,7 +50,7 @@ const NavigationBar = () => {
                             <Button className="lg:scale-100 scale-50 bg-[#18335D]">
                                 Whatsapp
                             </Button> */}
-                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white">Book Now</button>
+                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white" onClick={()=>navigation()}>Book Now</button>
                             <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white"> <ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
                             <Navbar.Toggle />
                         </Navbar.Container>

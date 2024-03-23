@@ -23,11 +23,11 @@ const services = [
         title: "Electrical Services",
         background: electricService,
         text: "Illuminate your space with  Noman & Rohan General Contracting and Maintenance’ electrical solutions. From installations to repairs, our skilled electricians guarantee safe and efficient electrical systems for your property."
-    }, {
+    },{
         serviceId: 3,
-        title: "Decor Services",
-        background: decor,
-        text: "For all your odd jobs and repairs, rely on  Noman & Rohan General Contracting and Maintenance’ versatile handyman services. Our skilled professionals tackle a range of tasks, ensuring your property is well-maintained and functional."
+        title: "Plumbing Services",
+        background: plumbing,
+        text: "Say goodbye to leaks and plumbing issues with Noman & Rohan General Contracting and Maintenance. Our plumbing experts provide reliable solutions, ensuring your pipes and fixtures function seamlessly."
     }, {
         serviceId: 4,
         title: "Painting Services",
@@ -35,29 +35,29 @@ const services = [
         text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ painting expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
     }, {
         serviceId: 5,
-        title: "Plumbing Services",
-        background: plumbing,
-        text: "Say goodbye to leaks and plumbing issues with Noman & Rohan General Contracting and Maintenance. Our plumbing experts provide reliable solutions, ensuring your pipes and fixtures function seamlessly."
-    }, {
-        serviceId: 6,
         title: "Tiles Installation Service",
         background: tiles,
         text: "Elevate your space with expert tile installation. From floors to walls, our meticulous approach guarantees flawless results, enhancing the aesthetic appeal and  durability of your property."
-    }, {
+    },{
+        serviceId: 6,
+        title: "Gypsum Services",
+        background: gypsum,
+        text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ gypsum expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
+    },   {
         serviceId: 7,
         title: "Sanitary Services",
         background: senitary,
         text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ sanitary expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
-    }, {
+    },  {
         serviceId: 8,
-        title: "Gypsum Services",
-        background: gypsum,
-        text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ gypsum expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
-    }, {
-        serviceId: 9,
         title: "Man Power",
         background: manpower,
         text: "We are recruitment agency offering staffing, manpower and human resource solutions and services in Abu Dhabi."
+    },{
+        serviceId: 9,
+        title: "Decor Services",
+        background: decor,
+        text: "For all your odd jobs and repairs, rely on  Noman & Rohan General Contracting and Maintenance’ versatile handyman services. Our skilled professionals tackle a range of tasks, ensuring your property is well-maintained and functional."
     }
 ]
 
