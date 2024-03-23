@@ -16,5 +16,7 @@ This a client project from Abu Dhabi, developed by Dream Weave Stations.
 * NodeJs
 * ExpressJs
 * MongoDb
+* Nodemon
+* Cors
 
   
