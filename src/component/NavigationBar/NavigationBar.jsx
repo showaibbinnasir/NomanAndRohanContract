@@ -1,6 +1,7 @@
 "use client";
 
 import { Navbar } from "keep-react";
+import ReactWhatsapp from "react-whatsapp";
 
 const NavigationBar = () => {
     return (
@@ -44,7 +45,7 @@ const NavigationBar = () => {
                                 Whatsapp
                             </Button> */}
                             <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white">Book Now</button>
-                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white"> Whatsapp</button>
+                            <button className="bg-[#18335D] lg:w-[150px] w-[100px] rounded-[5px] py-2 text-white"> <ReactWhatsapp number="01880614408"> Whatsapp</ReactWhatsapp></button>
                             <Navbar.Toggle />
                         </Navbar.Container>
                     </Navbar.Container>
