@@ -12,7 +12,7 @@ const ErrorComp = () => {
                 </Empty.Image>
                 <Empty.Title>Oops! You seem to be lost</Empty.Title>
                 <Empty.Description>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.
+                    Seems like you hitten to a route which is not valid or unknown. Please go to home and try again. Thank you.
                 </Empty.Description>
                 <a href="/"><Button value="outline">Go to home</Button></a>
             </Empty>
