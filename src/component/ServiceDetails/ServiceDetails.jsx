@@ -4,7 +4,11 @@ import Estimate from "../Estimate/Estimate";
 import Footer from "../Footer/Footer";
 
 const ServiceDetails = () => {
+    
+
     const data = useLoaderData()
+    
+    
     const { pathname } = useLocation();
     useEffect(() => {
         window.scrollTo(0, 0);

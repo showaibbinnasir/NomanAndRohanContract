@@ -4,12 +4,13 @@ import Homepage from "../component/Homepage/Homepage";
 import MoreServices from "../component/MoreServices/MoreServices";
 import ServiceDetails from "../component/ServiceDetails/ServiceDetails";
 import Quote from "../component/Quote/Quote";
+import ErrorComp from "../component/ErrorComp/ErrorComp";
 
 const router = createBrowserRouter([
     {
         path :  '/',
         element: <Default></Default>,
-        errorElement  : <div>What the heck are you doing bitch</div>,
+        errorElement  : <ErrorComp></ErrorComp>,
         children : [
             {
                 path: '/',
