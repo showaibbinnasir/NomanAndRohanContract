@@ -16,7 +16,7 @@ const Estimate = () => {
                         <div className="mt-5">
                             <div className="flex gap-2">
                                 <button onClick={()=>navigation()} className="bg-[#4C81D1] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white">Get A Quote</button>
-                                <button className="bg-[#18335D] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white border border-white"><ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
+                                <button className="bg-[#18335D] lg:w-[150px] w-[140px] rounded-[5px] py-2 text-white border border-white"><ReactWhatsapp number="+971506036488" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></button>
                             </div>
                         </div>
                     </div>

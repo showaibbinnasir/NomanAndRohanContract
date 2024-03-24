@@ -70,7 +70,7 @@ const CallbackForm = () => {
                                 <div className="flex justify-center">
                                     <div className="flex items-center gap-4">
                                         <img className="w-10" src={whatsapp} alt="" />
-                                        <span>or <ReactWhatsapp number="+8801880614408" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></span>
+                                        <span>or <ReactWhatsapp number="+971506036488" message="Hello, i got your number from Noman and Rohan Contracting and Maintenance Website. Can you help me?"> Whatsapp</ReactWhatsapp></span>
                                     </div>
                                 </div>
 
