@@ -3,10 +3,12 @@ import { useLoaderData, useLocation } from "react-router-dom";
 import Estimate from "../Estimate/Estimate";
 import Footer from "../Footer/Footer";
 
+
 const ServiceDetails = () => {
     
 
     const data = useLoaderData()
+    console.log(data);
     
     
     const { pathname } = useLocation();

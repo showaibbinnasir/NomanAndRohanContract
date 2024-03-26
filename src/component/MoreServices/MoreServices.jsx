@@ -50,7 +50,7 @@ const services = [
         text: "Infuse new life into your property with Noman & Rohan General Contracting and Maintenance’ sanitary expertise. Our skilled professionals deliver precision and creativity, turning your vision into a vibrant reality."
     },  {
         serviceId: 8,
-        title: "Man Power",
+        title: "Man Power Supply",
         background: manpower,
         text: "We are recruitment agency offering staffing, manpower and human resource solutions and services in Abu Dhabi."
     },{

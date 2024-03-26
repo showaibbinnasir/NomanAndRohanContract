@@ -3,7 +3,7 @@
 import { Navbar } from "keep-react";
 import ReactWhatsapp from "react-whatsapp";
 import logo from "../../assets/logo.png"
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
     const navigate = useNavigate()
@@ -17,7 +17,7 @@ const NavigationBar = () => {
                     <Navbar.Container className="flex items-center justify-between lg:mx-24">
                         <Navbar.Container className="flex items-center">
                             <Navbar.Brand>
-                                <img className="w-[150px]" src={logo} />
+                                <NavLink to="/"><img className="w-[150px]" src={logo} /></NavLink>
                             </Navbar.Brand>
                             <Navbar.Divider></Navbar.Divider>
                             <Navbar.Container
