@@ -4,8 +4,15 @@ import Footer from "../Footer/Footer";
 import vat from "../../assets/vatcertificate.jpg"
 import corOne from "../../assets/corporate.jpg"
 import corTwo from "../../assets/corporate2.jpg"
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Certifications = () => {
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+    document.title = `Certifications`
     return (
         <div>
             <div>
