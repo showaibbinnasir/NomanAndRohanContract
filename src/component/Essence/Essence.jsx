@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Essence = () => {
     return (
         <div className=" mt-8 bg-[#D1CCCC] p-16">
@@ -28,6 +30,9 @@ const Essence = () => {
             </div>
             <div className="lg:mx-24 mx-5 mt-8">
                 <h1 className="lg:text-lg text-sm text-center">Call Us Today At <span className="text-[#4C81D1] font-semibold">+971  050 603 6488, +971 055 912 9049</span> We are ready to help 24 hours.</h1>
+            </div>
+            <div className="mt-5 flex justify-center">
+                <Link to='/certificate'><button className="bg-[#4C81D1] lg:w-[200px] w-[180px] rounded-[5px] py-2 text-white">SEE CERTIFICATIONS</button></Link>
             </div>
 
         </div>

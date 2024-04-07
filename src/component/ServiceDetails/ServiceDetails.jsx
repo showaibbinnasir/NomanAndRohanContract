@@ -8,7 +8,7 @@ const ServiceDetails = () => {
     
 
     const data = useLoaderData()
-    console.log(data);
+    
     
     
     const { pathname } = useLocation();

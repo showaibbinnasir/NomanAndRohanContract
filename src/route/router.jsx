@@ -5,6 +5,7 @@ import MoreServices from "../component/MoreServices/MoreServices";
 import ServiceDetails from "../component/ServiceDetails/ServiceDetails";
 import Quote from "../component/Quote/Quote";
 import ErrorComp from "../component/ErrorComp/ErrorComp";
+import Certifications from "../component/Certifications/Certifications";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,9 @@ const router = createBrowserRouter([
             {
                 path:"/quote",
                 element: <Quote></Quote>
+            },{
+                path : "/certificate",
+                element: <Certifications></Certifications>
             }
         ]
     }
